@@ -1,0 +1,8 @@
+[0702/002044.108:ERROR:process_info.cc(98)] ReadProcessMemory UNICODE_STRING: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0702/002044.211:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0702/002043.926:ERROR:process_info.cc(98)] ReadProcessMemory UNICODE_STRING: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0702/002044.200:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
+[0702/002044.227:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0702/002044.227:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
+[0702/002044.200:ERROR:process_info.cc(98)] ReadProcessMemory UNICODE_STRING: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0702/002044.226:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)

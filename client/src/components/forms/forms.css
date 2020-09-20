@@ -1,0 +1,122 @@
+.form-item {
+    width: 100%;
+    border: 1px solid #33333310;
+    border-radius: 10px;
+    position: relative;
+    padding: 70px 10px 10px 10px;
+    margin-top: 200px;
+}
+
+.form-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50px);
+    border-radius: 50%;
+    background: #fff;
+}
+
+.form-img img {
+    max-width: 100%;
+    position: absolute;
+}
+
+.form-item .field {
+    position: relative;
+    margin-top: 15px;
+}
+
+.form-item .field input:not([type='checkbox']) {
+    width: 100%;
+    border: 1px solid #0075ff;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-item .field label {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 18px;
+    transition: all .1s ease-out;
+    background: #fff;
+}
+
+.form-item .field input:not([type='checkbox']):focus ~ label{
+    top: -12px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.form-item .field input:not([type='checkbox']):valid ~ label{
+    display: none;
+}
+
+.form-item .checkbox-wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-item .checkbox-wrap .field {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.form-item .checkbox-wrap .field label{
+    position: static;
+    cursor: pointer;
+}
+
+.error-text {
+    color: red
+}
+
+.error-text.flex-item{
+    width: 100%;
+    text-align: center;
+}
+
+.form-item .field.field-error input {
+    border: 1px solid red;
+    box-shadow: 0 0 4px 0px red;
+}
+
+.btnFacebook {
+    width: 100%;
+    border-radius: 4px;
+    background: #3b5998;
+    color:white;
+    border:0px transparent;
+    text-align: center;
+    margin:5px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.btnGoogle {
+    margin:5px;
+    width: 100%;
+    border-radius: 4px;
+    background: #db3236;
+    color:white;
+    border:0px transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnFacebook:hover {
+    background: #3b5998;
+    opacity: 0.6;
+}
+.btnGoogle:hover {
+    background: #db3236;
+    opacity: 0.6;
+}

@@ -1,0 +1,16 @@
+.nav-list_item a {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease;
+}
+
+.nav-list_item a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #0075ff;
+}
+
+a.active {
+    background: #0075ff50;
+    color: #fff;
+}
